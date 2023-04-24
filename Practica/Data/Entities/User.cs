@@ -6,6 +6,8 @@
 
         public string Email { get; set; }
 
+        public string HashedPassword { get; set; }
+
         public DateTime BirthDate { get; set; }
 
         public ICollection<Post> Posts { get; set; }
